@@ -21,10 +21,3 @@ Devido ao momento atual de pandemia, resolvemos acolher o cenário real onde mui
 Para esse projeto iremos reaproveitar um software pronto que passará por um processo de refactoring, juntamente a ele haverá um website para consultas básicas e também para os cemitérios interessados a possibilidade de realizar a solicitação de acesso ao software.
 </p>
 </div>
-
-<div align="center">
-<h3> Divisão de tarefas </h3>
-<p> Diagrama de caso de uso e refactoring: Cleber </p>
-<p> Front-end: Marcos e Alexandre </p>
-<p> Design e documentação: Juliana e Sabrina </p>
-</div>
