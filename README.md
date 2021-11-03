@@ -1,23 +1,37 @@
 <div  align="center">
-<img  height="370"  width="1185"  src="https://i.imgur.com/QwEJZWe.png">
+	<h1>PROJETO ENTE QUERIDO</h1>
 </div>
 
 <div  align="center">
-<h2> PROJETO ENTE QUERIDO</h2>
-</div>
-
-<div  align="center">
-<p>
-Cleber Luis aranha, Marcos Vinicius da Silva Guedes, Sabrina Borges Ribeiro e Juliana Barbosa Tangerino
-</p>
-</div>
-
-<div  align="center">
-<h3> Escolha do projeto: </h3>
+<h3> Contexto </h3>
 <p>
 Devido ao momento atual de pandemia, resolvemos acolher o cenário real onde muitas pessoas não tiveram a possibilidade de realizar a devida despedida de seus entes queridos e em contra partida houve a sobrecarga dos cemitérios, que tiveram a necessidade de se adaptar a grande demanda em um intervalo de tempo muito curto. Em momentos como esses é fundamental o controle de sepultamentos e a disponibilidade de consultas de dados de entes queridos juntamente ao mapeamento de toda a área utilizada e ainda disponível.
 </p>
-<p>
-Para esse projeto iremos reaproveitar um software pronto que passará por um processo de refactoring, juntamente a ele haverá um website para consultas básicas e também para os cemitérios interessados a possibilidade de realizar a solicitação de acesso ao software.
+</div>
+
+<div  align="center">
+<h3> Requisitos </h3>
+<p> 
+Para esse projeto é interessante a utilização do <strong>WSL2 e Docker</strong> . Entenda como esses recursos funcionam e como realizar a instalação, <a href="https://www.nginx.com/"> clicando aqui.</a> 
 </p>
+<a href="https://docs.docker.com/engine/install/ubuntu/">Docker</a> 
+<span> | </span>
+<a href="https://docs.microsoft.com/pt-br/windows/wsl/install">WSL2</a>
+<span> | </span>
+<a href="https://www.php.net/downloads">PHP</a>
+<span> | </span>
+<a href="https://www.nginx.com/">Nginx</a>
+</div>
+
+<div  align="center">
+<h3>Containers utilizados</h3>
+<div>
+<code> PHP 8.0.11</code>
+<code> Nginx 1.21.3</code>
+<code> MySQL 8.0.27</code>
+</div>
+
+<div  align="center">
+<h3> Nosso time</h3>
+<table> <tr> <td align="center"> <a href="#"> <img src="https://avatars.githubusercontent.com/u/84164595?v=4" width="100px;" alt="Foto do Marcos"/><br> <sub> <b>Marcos Guedes</b> </sub> </a> </td> <td align="center"> <a href="#"> <img src="https://avatars.githubusercontent.com/u/46140018?v=4" width="100px;" alt="Foto de Juliana Tangerino"/><br> <sub> <b>Juliana Tangerino</b> </sub> </a> </tr> </table>
 </div>
