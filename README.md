@@ -12,7 +12,7 @@ Devido ao momento atual de pandemia, resolvemos acolher o cenário real onde mui
 <div  align="center">
 <h3> Requisitos </h3>
 <p> 
-Para esse projeto é interessante a utilização do <strong>WSL2 e Docker</strong> . Entenda como esses recursos funcionam e como realizar a instalação, <a href="https://www.nginx.com/"> clicando aqui.</a> 
+Para esse projeto é interessante a utilização do <strong>WSL2 e Docker</strong> . Entenda como esses recursos funcionam e como realizar a instalação, <a href="https://github.com/codeedu/wsl2-docker-quickstart">clicando aqui.</a> 
 </p>
 <a href="https://docs.docker.com/engine/install/ubuntu/">Docker</a> 
 <span> | </span>
