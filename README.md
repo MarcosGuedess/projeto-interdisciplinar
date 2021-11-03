@@ -26,9 +26,9 @@ Para esse projeto é interessante a utilização do <strong>WSL2 e Docker</stron
 <div  align="center">
 <h3>Containers utilizados</h3>
 <div>
-<code> PHP 8.0.11</code>
-<code> Nginx 1.21.3</code>
-<code> MySQL 8.0.27</code>
+<code> 🐘 PHP 8.0.11</code>
+<code> ☁ Nginx 1.21.3</code>
+<code> 📁 MySQL 8.0.27</code>
 </div>
 
 <div  align="center">
