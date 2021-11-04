@@ -1,0 +1,48 @@
+version: "3.8"
+services:
+
+  nginx:
+    image: nginx:1.21.3
+    ports: 
+      - 8000:8000
+    volumes:
+      - .:/app
+      # Arquivo de configuração do Nginx
+      - ./docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    links:
+      - php
+      - mysql
+
+  php:
+    build: ./docker/php/ # Informar onde está o docker file
+    # image: php:8.0.11-fpm
+    working_dir: /app
+    ports:
+      - 9000:9000
+    volumes:
+      - .:/app
+    # command: php -S 0.0.0.0:9000 -t public
+    # Mesmo conceito do network (Linkando os 2 containers)
+    # links:
+    #   - mysql
+
+  mysql:
+    image: mysql:8.0.27
+    env_file: 
+      - .env
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql:/var/lib/mysql/
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+
+volumes:
+  mysql:
+
+  
+
+
