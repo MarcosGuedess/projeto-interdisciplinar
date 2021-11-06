@@ -21,6 +21,8 @@ Para esse projeto é interessante a utilização do <strong>WSL2 e Docker</stron
 <a href="https://www.php.net/downloads">PHP</a>
 <span> | </span>
 <a href="https://www.nginx.com/">Nginx</a>
+<span> | </span>
+<a href="https://laravel.com/docs/8.x">Laravel</a>
 </div>
 
 <div  align="center">
