@@ -35,5 +35,8 @@ Para esse projeto é interessante a utilização do <strong>WSL2 e Docker</stron
 
 <div  align="center">
 <h3> Nosso time</h3>
-<table> <tr> <td align="center"> <a href="#"> <img src="https://avatars.githubusercontent.com/u/84164595?v=4" width="100px;" alt="Foto do Marcos"/><br> <sub> <b>Marcos Guedes</b> </sub> </a> </td> <td align="center"> <a href="#"> <img src="https://avatars.githubusercontent.com/u/46140018?v=4" width="100px;" alt="Foto de Juliana Tangerino"/><br> <sub> <b>Juliana Tangerino</b> </sub> </a> </tr> </table>
+<table> 
+<tr> <td  align="center"> <a  href="#"> <img  src="https://avatars.githubusercontent.com/u/84164595?v=4"  width="100px;"  alt="Foto do Marcos"/> <br> 
+<sub> <b>Marcos Guedes</b> </sub> </a> </td> <td  align="center"> <a  href="#"> <img  src="https://avatars.githubusercontent.com/u/46140018?v=4" width="100px;"  alt="Foto de Juliana Tangerino"/> <br> <sub> <b>Juliana Tangerino</b> </sub> </a> </td> <td  align="center"> <a  href="#"> <img  src="https://avatars.githubusercontent.com/u/39919918?v=4"  width="100px;" alt="Foto do Cleber"/><br> <sub> <b>Cleber Aranha</b> </sub> </a> </td> <td  align="center"> <a  href="#"> <img  src="https://i.imgur.com/BPSUfxa.jpg" width="100px;"  alt="Foto da SAbrina"/> <br><sub> <b>Sabrina Borges</b> </sub> </a> </td> 
+</table>
 </div>
