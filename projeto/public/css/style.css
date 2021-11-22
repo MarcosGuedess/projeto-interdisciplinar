@@ -1,0 +1,826 @@
+/* Fonte Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* Itens ocultos no mobile */
+
+.textDivDireita ul{
+    display: none;
+}
+
+.menu-hamburguer {
+    height: 55px;
+    width: auto;
+}
+
+.textDivEsquerda {
+    display: none;
+}
+
+.pontao {
+    display: none;
+}
+
+button {
+    display: none;
+}
+
+.textDivEsquerdaBaixo {
+    display: none;
+}
+
+.pontinho_horizontal{
+    display: none;
+}
+
+.pontinhoInferiorDireito {
+    display: none;
+}
+
+.direitaFinal {
+    display: none;
+}
+
+.ondinhasServicos {
+    display: none;
+}
+
+.direitaServicos {
+    display: none;
+}
+
+.pontinhoDetalhes {
+    display: none;
+}
+
+.textDivEsquerdaPontinhos{
+    display: none;
+}
+
+.textDivEsquerdaBaixo {
+    display: none;
+}
+
+.photoServicos{
+    display: none;
+}
+
+.ondinhas {
+    display: none;
+}
+
+.triangulos-direita{
+    display: none;
+}
+
+.direitaBaixo {
+    display: none;
+}
+
+
+/* header */
+
+#site{
+    margin: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0px auto;
+    position: relative;
+    color: white;
+    background-color: #1D1D1D;
+}
+
+.photo {
+    width: 100%;
+    height: 650px;
+    opacity: 25%;
+    object-fit: cover;
+}
+
+.textDivDireita{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+
+.textDivCentro{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.logo-home {
+    height: 60px;
+    width: auto;
+}
+    
+.title-main {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.subtitle-main {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 0.9rem;
+    
+}
+
+.rodaPe{
+    position: absolute;
+    font-weight: 200;
+    top: 90%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* About */
+
+.photoabout img {
+    display: none; 
+}
+
+.containerabout {
+    color: black; 
+    font-weight: 300;
+}
+
+.about {
+    padding: 40px 30px;
+    text-align: left;
+    height: 100%;
+}
+
+.about h1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+/* Services */
+
+.containerServicos{
+    color: #FFFFFF;
+    background: url(/image/backgroundimage.png);
+    background-color: #1B1B1B;
+}
+
+.divEsquerda {
+    padding: 30px 40px 0 20px;
+}
+
+.divEsquerda h1 {
+    padding: 10 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.divEsquerda p {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.botao-cruz {
+    display: flex;
+    align-items: center;
+    background-color: #373737;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding-top: 10px;
+}
+
+.botao-cruz img {
+    height: 60px;
+    padding-right: 10px;
+}
+
+.botao-tumulo img {
+    height: 60px;
+    padding-right: 10px;
+}
+
+.botao-tumulo {
+    display: flex;
+    align-items: center;
+    background-color: #373737;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.divDireita {
+    padding: 20px 20px 30px 20px;
+}
+
+.souCemiterio h1 {
+    padding: 10 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.souCemiterio p {
+    padding: 10 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* Contact*/
+
+.containerFinal {
+    padding: 20px 20px 30px 20px;
+    color: black;
+    background: white; 
+}
+
+.notificacao h1 {
+    padding: 10 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.notificacao p {
+    padding: 10 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.form {
+    padding-top: 5px;
+}
+
+.form p {
+    padding: 0px;
+    margin: 1px;
+}
+
+.input {
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #C4C4C4;
+}
+
+.input::placeholder {
+    color: #D7D7D7;
+    font-weight: 100;
+}
+
+.input:hover {
+    color: #4e4e4e;
+    background-color: #F1F1F1;
+}
+
+.input:focus {
+    color: #4e4e4e;
+    background-color: #F1F1F1;
+}
+
+.accepted-checkbox {
+    padding: 20px 0px;
+}
+
+.accepted-checkbox label {
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.submit {
+    padding: 10px 0px;
+}
+
+form a {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 6px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: #1B1B1B;
+    padding: 40px 20px;
+}
+
+footer p {
+    font-weight: 200;
+    font-size: 0.9rem;
+    color: #b8b7b7;
+}
+
+.contact a {
+    padding: 0 5px;
+    font-size: 0.9rem;
+    color: #b8b7b7;
+    text-decoration: none;
+}
+
+.social-media img {
+    height: 20px;
+    width: auto;
+    padding: 15px 5px;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 992px) {
+
+    .title-main {
+        font-weight: 700; 
+        font-size: 4rem;
+    }
+    
+    .subtitle-main {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+
+    .rodaPe{
+        font-size: 1.1rem;
+    }
+
+    .containerabout {
+        margin: 0px auto;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+        color: black;
+        background-color: white;  
+    }
+
+    .about{
+        text-align: left;
+        position: absolute;
+        padding: 60px 90px;
+    }
+
+    .about p {
+        width: 300px;
+    }
+
+    .about h1 {
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+    .ondinhas{
+        display: inline;
+        position: absolute;
+        top: 5%;
+        left: 45%;   
+        transition: translate(-50%,-50%);   
+    }
+
+    .photoabout {
+        text-align: -webkit-right;
+    }
+
+    .photoabout img {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        width: 50%;
+        height: 1000px;
+        opacity: 25%;
+        object-fit: cover;
+    }
+
+    /*------serviço------*/
+    .containerServicos{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0px auto;
+        padding: 0px;
+        color: white;
+        background: black;
+    }
+    .btn {
+        margin-top: 40px;
+        padding-left: 80px;
+    }
+    .botoes{
+        width: 220px;
+        height: 123px;
+        background: #373737;
+        backdrop-filter: blur(4px);
+        border-radius: 27px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: white;
+        text-align: left;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    .text-service {
+        display: none;
+    } 
+    .divEsquerda{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 150px 250px;
+        text-align: center;
+    }
+    .photoServicos{
+        display: inline;
+        object-fit: cover;
+        height: 1200px;
+        width: 100%;
+    }
+    .divEsquerda h1{
+        text-align: left;
+        width: 400px;
+        height: 72px;
+        padding-left: 80px;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #F3F1F1;
+    }
+    .divEsquerda p{
+        text-align: left;
+        padding: 20px 0px 40px 80px;
+        font-weight: 200;
+        font-size: 1.1rem;
+        color: #F1F1F1;
+    }
+    .pontao{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 300px 80px;
+    }
+    .direitaServicos{
+        display: inline;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 290px 1px;   
+     }
+     .ondinhasServicos{
+        display: inline;
+        position: absolute;
+        top: 1%;
+        left: 55%;   
+        transition: translate(-50%,-50%); 
+    }
+    .rip{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 120px 20px;  
+    }
+    .cruz{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 120px 20px;  
+    } 
+    .divDireita{
+        width: 402px;
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 730px 400px;
+        text-align: center;
+    }
+
+    .souCemiterio h1 {
+        text-align: left;
+        font-weight: 600;
+        font-size: 1.8rem;
+        color: #FFFFFF;
+    }
+
+    .souCemiterio p {
+        text-align: left;
+        font-weight: 300;
+        font-size: 1rem;
+        color: #FFFFFF;
+    }
+
+    .pontinhoDetalhes{
+        display: inline;
+        position: absolute;
+        bottom: 1%;
+        left: 60%;   
+        padding: 170px 80px;
+        transition: translate(-50%,-50%);    
+    }
+    
+}
+
+@media (min-width: 1025px) {
+    .divDireita{
+        width: 402px;
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 730px 10px;
+        text-align: center;
+    }
+
+    .divEsquerda{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 150px 360px;
+        text-align: center;
+    }
+}
+
+
+/* Medium devices (tablets, 1027px and up) */
+@media (min-width: 1425px) {
+    .divDireita{
+        width: 402px;
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 730px 300px;
+        text-align: center;
+    }
+
+    .text-service {
+        display: inline;
+    }
+
+    
+    .divEsquerda{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 150px 250px;
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 1553px) {
+
+    /* header */
+
+    #site{
+        margin: 0 auto;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0px auto;
+        color: white;
+        background: #1D1D1D;
+    }
+    
+    .photo {
+        width: 50%;
+        height: 100%;
+        opacity: 25%;
+        object-fit: cover;
+    }
+
+    .divEsquerda{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 150px 250px;
+        text-align: center;
+    }
+    
+    .textDivEsquerdaPontinhos{
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 170px 15px;  
+     }
+
+    .textDivEsquerda{
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 80px 30px;  
+    }
+
+    .textDivEsquerdaBaixo{
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 150px 100px;   
+     }
+
+    .textDivDireita{
+        position: absolute;
+        top: 0;
+        right: 0; 
+    }
+
+     .triangulos-direita{
+        display: inline;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 290px 60px;   
+     }
+     .direitaBaixo{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 200px 30px;  
+     }
+
+     .menu-hamburguer {
+        display: none;
+    }
+
+     .textDivDireita ul{
+        display: flex;
+        padding-right: 60px;
+     }
+
+     .textDivDireita ul li{
+        padding: 20px 0px;
+        padding-right: 55px;
+        text-decoration: none;
+        list-style: none;
+    }
+    a{
+        /* o "a" se refere ao link quando você  clica em cima*/
+        text-align: center; 
+        text-decoration: none;
+        font-weight: 200; 
+        font-size: 1.2rem;
+        color:white; 
+    }
+     a:hover{
+        /*cor defundo quando passa o mouse em cima */
+        background: transparent;
+        padding: 3px 3px;    
+    }
+
+    .textDivCentro{
+        position: absolute;
+        top: 35%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    
+    .textDivCentro img {
+        height: 80px;
+        width: auto;
+    }
+    
+    .title-main {
+        font-family: 'Poppins';
+        font-weight: 700; 
+        font-size: 4rem;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .subtitle-main {
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+    
+    .rodaPe{
+        position: absolute;
+        font-weight: 200;
+        top: 88%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /*---------Pagina Sobre nós-------------*/
+
+    .about {
+        padding: 100px 60px;
+    }
+
+    .about p {
+        width: 450px;
+    }
+
+    /*---------Serviços-------------*/
+
+    .text-service {
+        display: inline;
+        margin: 0px 600px;
+    }
+    
+    .divDireita{
+        width: 402px;
+        height: 250px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 730px 300px;
+        text-align: center;
+    }
+    
+    /*-------Roda pé------*/
+    .containerFinal {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0px auto;
+        color: black;
+        background: white; 
+     
+    }
+    .containerFinal h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #333333;
+        text-align: center;
+        padding-left: 70px;
+    }
+    .pontinho_horizontal{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 90px 140px;   
+    }
+    .pontinhoInferiorDireito{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 125px 187px; 
+    }
+    .direitaFinal{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 150px 50px;
+    }
+    .notificacao{
+        position: absolute;
+        bottom: 45%;
+        left: 30%;   
+        transition: translate(-50%,-50%);    
+    }
+    .notificacao p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        padding-left: 70px;
+        color: black;
+        text-align: left;
+    }
+    input{
+        position: absolute;
+        width: 218px;
+        height: 36px;
+        
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+    .buton{
+        margin-top: 50px;
+        display: flex;
+    }
+}
