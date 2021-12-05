@@ -134,7 +134,13 @@ button {
     padding: 0;
     font-weight: 300;
     font-size: 0.9rem;
-    
+    cursor: pointer; 
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.subtitle-main:hover {
+    text-decoration: underline;
 }
 
 .rodaPe{
@@ -164,6 +170,11 @@ button {
     height: 100%;
 }
 
+.about span {
+    font-weight: 600;
+    color: rgb(71, 73, 87);
+}
+
 .about h1 {
     font-size: 1.9rem;
     font-weight: 600;
@@ -172,13 +183,14 @@ button {
 /* Services */
 
 .containerServicos{
+    padding: 0px ;
     color: #FFFFFF;
     background: url(/image/backgroundimage.png);
     background-color: #1B1B1B;
 }
 
 .divEsquerda {
-    padding: 30px 40px 0 20px;
+    padding: 30px 50px 0 40px;
 }
 
 .divEsquerda h1 {
@@ -200,22 +212,28 @@ button {
     font-size: 1.3rem;
     padding: 8px;
     border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(241, 228, 228);
+}
+
+.botao-cruz:hover {
+    background-color: #414141;
 }
 
 .btn {
     padding-top: 10px;
 }
-
 .botao-cruz img {
+    opacity: 80%;
     height: 60px;
     padding-right: 10px;
 }
-
 .botao-tumulo img {
-    height: 60px;
+    opacity: 80%;
+    height: 55px;
     padding-right: 10px;
 }
-
 .botao-tumulo {
     display: flex;
     align-items: center;
@@ -224,14 +242,20 @@ button {
     font-size: 1.3rem;
     padding: 8px;
     border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(241, 228, 228);
+}
+
+.botao-tumulo:hover {
+    background-color: #414141;
 }
 
 .divDireita {
-    padding: 20px 20px 30px 20px;
+    padding: 30px 50px 20px 40px;
 }
 
 .souCemiterio h1 {
-    padding: 10 0;
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -245,15 +269,33 @@ button {
 /* Contact*/
 
 .containerFinal {
-    padding: 20px 20px 30px 20px;
-    color: black;
-    background: white; 
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
 }
 
 .notificacao h1 {
-    padding: 10 0;
     font-size: 1.5rem;
     font-weight: 600;
+    position: relative;
+    color: #333333;
+}
+.notificacao{
+    display: flex;
+    flex-direction: column;
+}
+.notificacao-header {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.photoform {
+    opacity: 10%;
+    position: relative;
+    width: 100%;
+    height: 900px;
 }
 
 .notificacao p {
@@ -262,8 +304,13 @@ button {
     font-weight: 300;
 }
 
-.form {
-    padding-top: 5px;
+.form-inputs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+input {
+    width: 130px;
 }
 
 .form p {
@@ -274,14 +321,14 @@ button {
 .input {
     background-color: #F1F1F1;
     border-radius: 15px;
-    width: 80%;
     padding: 10px;
     border: 1px solid #C4C4C4;
 }
 
 .input::placeholder {
+    font-family: poppins;
     color: #D7D7D7;
-    font-weight: 100;
+    padding-left: 10px;
 }
 
 .input:hover {
@@ -295,16 +342,18 @@ button {
 }
 
 .accepted-checkbox {
-    padding: 20px 0px;
+    display: none;
 }
 
 .accepted-checkbox label {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 0.9rem;
 }
 
 .submit {
     padding: 10px 0px;
+    display: flex;
+    justify-content: center;
 }
 
 form a {
@@ -321,6 +370,13 @@ footer {
     text-align: center;
     background-color: #1B1B1B;
     padding: 40px 20px;
+    position: relative;
+    z-index: 600;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 400;
 }
 
 footer p {
@@ -334,17 +390,93 @@ footer p {
     font-size: 0.9rem;
     color: #b8b7b7;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .social-media img {
     height: 20px;
     width: auto;
     padding: 15px 5px;
+    cursor: pointer;
+}
+
+.footer-phrase span{
+    font-weight: 400;
+}
+
+@media (max-width: 1552px) {
+
+    .botao-cruz img {
+        opacity: 100%;
+        height: 60px;
+        padding-right: 10px;
+    }
+    .botao-tumulo img {
+        opacity: 100%;
+        height: 55px;
+        padding-right: 10px;
+    }
+
+    .containerFinal{
+        width: 100%;
+        position: relative; 
+        display: flex;
+        align-items: center;
+    }
+    .notificacao h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        color: #333333;
+    }
+    .photoform{
+        position: absolute;
+        top: 0px;
+        height: 100% ;
+        z-index: -300;
+    }
+    .submit {
+        padding-top: 40px;
+    }
+    footer {
+        text-align: center;
+        background-color: #1B1B1B;
+        padding: 40px 20px;
+    }
+    
+    footer p {
+        font-weight: 200;
+        font-size: 0.9rem;
+        color: #b8b7b7;
+    }
+    
+    .contact a {
+        padding: 0 5px;
+        font-size: 0.9rem;
+        color: #b8b7b7;
+        text-decoration: none;
+    }
+    
+    .social-media img {
+        height: 20px;
+        width: auto;
+        padding: 15px 5px;
+    }
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 992px) {
+
+    .botao-cruz img {
+        opacity: 100%;
+        height: 60px;
+        padding-right: 10px;
+    }
+    .botao-tumulo img {
+        opacity: 100%;
+        height: 55px;
+        padding-right: 10px;
+    }
 
     .title-main {
         font-weight: 700; 
@@ -353,7 +485,13 @@ footer p {
     
     .subtitle-main {
         font-weight: 300;
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
         font-size: 1.2rem;
+        cursor: pointer; 
+        color: #f4f4f4;
+        text-decoration: none;
     }
 
     .rodaPe{
@@ -389,8 +527,8 @@ footer p {
         display: inline;
         position: absolute;
         top: 5%;
-        left: 45%;   
-        transition: translate(-50%,-50%);   
+        left: 45%; 
+        z-index: 200;  
     }
 
     .photoabout {
@@ -400,9 +538,9 @@ footer p {
     .photoabout img {
         margin: 0;
         padding: 0;
-        display: inline;
+        display: flex;
         width: 50%;
-        height: 1000px;
+        height: 850px;
         opacity: 25%;
         object-fit: cover;
     }
@@ -440,9 +578,9 @@ footer p {
     } 
     .divEsquerda{
         position: absolute;
-        top: 0;
-        left: 0;
-        padding: 150px 250px;
+        top: 20%;
+        left: 35%;
+        padding: 0;
         text-align: center;
     }
     .photoServicos{
@@ -452,17 +590,16 @@ footer p {
         width: 100%;
     }
     .divEsquerda h1{
-        text-align: left;
+        text-align: center;
         width: 400px;
         height: 72px;
-        padding-left: 80px;
         font-weight: 600;
         font-size: 2rem;
         color: #F3F1F1;
     }
     .divEsquerda p{
-        text-align: left;
-        padding: 20px 0px 40px 80px;
+        text-align: center;
+        padding: 20px 0px 40px 0px;
         font-weight: 200;
         font-size: 1.1rem;
         color: #F1F1F1;
@@ -501,12 +638,12 @@ footer p {
         padding: 120px 20px;  
     } 
     .divDireita{
-        width: 402px;
         height: 250px;
         position: absolute;
         bottom: 0;
         right: 0;
-        padding: 730px 400px;
+        left: 55%;
+        top: 20%;
         text-align: center;
     }
 
@@ -532,44 +669,53 @@ footer p {
         padding: 170px 80px;
         transition: translate(-50%,-50%);    
     }
+
+    .notificacao {
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .form {
+        padding: 10px 0px;
+    }
+    
+
     
 }
 
-@media (min-width: 1025px) {
-    .divDireita{
-        width: 402px;
-        height: 250px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding: 730px 10px;
-        text-align: center;
-    }
-
-    .divEsquerda{
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 150px 360px;
-        text-align: center;
-    }
-}
-
-
 /* Medium devices (tablets, 1027px and up) */
 @media (min-width: 1425px) {
+
+    .botao-cruz img {
+        opacity: 100%;
+        height: 60px;
+        padding-right: 10px;
+    }
+    .botao-tumulo img {
+        opacity: 100%;
+        height: 55px;
+        padding-right: 10px;
+    }
+
     .divDireita{
         width: 402px;
         height: 250px;
         position: absolute;
         bottom: 0;
         right: 0;
-        padding: 730px 300px;
+        top: -50;
         text-align: center;
     }
 
     .text-service {
         display: inline;
+    }
+
+    .text-service span{
+        font-weight: 600;
+        color: rgb(255, 255, 255);
     }
 
     
@@ -612,9 +758,9 @@ footer p {
 
     .divEsquerda{
         position: absolute;
-        top: 0;
-        left: 0;
-        padding: 150px 250px;
+        top: 15%;
+        left: 15%;
+        padding: 0px;
         text-align: center;
     }
     
@@ -639,7 +785,7 @@ footer p {
         position: absolute;
         bottom: 0;
         left: 0;
-        padding: 150px 100px;   
+        padding: 110px 200px;   
      }
 
     .textDivDireita{
@@ -648,6 +794,14 @@ footer p {
         right: 0; 
     }
 
+    .divEsquerda h1 {
+        text-align: left;
+        padding-left: 80px;
+    }
+    .divEsquerda p {
+        text-align: left;
+        padding-left: 80px;
+    }
      .triangulos-direita{
         display: inline;
         position: absolute;
@@ -678,17 +832,24 @@ footer p {
         list-style: none;
     }
     a{
-        /* o "a" se refere ao link quando você  clica em cima*/
         text-align: center; 
         text-decoration: none;
         font-weight: 200; 
         font-size: 1.2rem;
         color:white; 
     }
-     a:hover{
-        /*cor defundo quando passa o mouse em cima */
-        background: transparent;
-        padding: 3px 3px;    
+    ul {
+        position: relative;
+    }
+    .menu-items li:hover::before{
+        content: '';
+        display: block; 
+        width: 40px;
+        height: 2px;
+        position: absolute;
+        background-color: #b8b7b7;
+        top: 50px;
+        border-radius: 20px;
     }
 
     .textDivCentro{
@@ -714,10 +875,13 @@ footer p {
     }
     
     .subtitle-main {
+        cursor: pointer;
         margin: 0;
         padding: 0;
         font-weight: 300;
         font-size: 1.2rem;
+        color: #f4f4f4;
+        text-decoration: none;
     }
     
     .rodaPe{
@@ -742,6 +906,17 @@ footer p {
 
     /*---------Serviços-------------*/
 
+    .containerServicos{
+        padding: 0px ;
+        color: #FFFFFF;
+        background: url(/image/backgroundimage.png);
+    }
+    .photoServicos{
+        display: inline;
+        object-fit: cover;
+        height: 1200px;
+        width: 100%;
+    }
     .text-service {
         display: inline;
         margin: 0px 600px;
@@ -753,29 +928,38 @@ footer p {
         position: absolute;
         bottom: 0;
         right: 0;
-        padding: 730px 300px;
         text-align: center;
+    }
+
+    .souCemiterio {
+        padding-top: 30px;
+    }
+
+    .botao-cruz img {
+        opacity: 100%;
+        height: 60px;
+        padding-right: 10px;
+    }
+    .botao-tumulo img {
+        opacity: 100%;
+        height: 55px;
+        padding-right: 10px;
     }
     
     /*-------Roda pé------*/
     .containerFinal {
-        width: 100%;
-        height: 100%;
         position: relative;
-        margin: 0px auto;
-        color: black;
         background: white; 
-     
     }
     .containerFinal h1 {
         font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 36px;
+        font-weight: 700;
+        font-size: 1.8rem;
         color: #333333;
         text-align: center;
-        padding-left: 70px;
+        position: relative;
+        left: 0;
+        right: 0;
     }
     .pontinho_horizontal{
         position: absolute;
@@ -795,32 +979,58 @@ footer p {
         right: 0;
         padding: 150px 50px;
     }
-    .notificacao{
+    .containerFinal {
+        display: relative;
+    }
+    .photoform{
         position: absolute;
-        bottom: 45%;
-        left: 30%;   
-        transition: translate(-50%,-50%);    
+        top: 0px;
+        height: 815px;
+    }
+    .notificacao{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
     }
     .notificacao p {
         font-family: Poppins;
-        font-style: normal;
         font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        padding-left: 70px;
+        font-size: 1rem;
         color: black;
-        text-align: left;
+    }
+    .accepted-checkbox {
+        display: flex;
+        align-items: center;
+        width: 60%;
+    }
+    .submit a {
+        position: relative;
+    }
+    #accepted {
+        position: absolute;
+        top: 67%;
+        height: 15px;
     }
     input{
-        position: absolute;
-        width: 218px;
-        height: 36px;
-        
+        position: relative;
+        height: 25px; 
+        width: 200px;
         background: #C4C4C4;
-        border-radius: 10px;
     }
-    .buton{
-        margin-top: 50px;
+    .shipping-terms {
+        align-items: center;
+        justify-content: space-between;
         display: flex;
+        padding: 30px 0px;
     }
+ 
 }
